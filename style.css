@@ -201,3 +201,12 @@ h4 {
     width: 128px;
     height: 48px
 }
+
+footer {
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+}
