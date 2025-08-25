@@ -81,16 +81,19 @@ footer,
     margin: 0;
 }
 
-#but1 {
+button {
     height: 36px;
     width: 112px;
     color: #f9faf8;
     background-color: #3882F6;
     border: solid 0;
     border-radius: 8px;
-    margin-top: 12px;
     font-weight: 700;
     font-size: 16px;
+}
+
+#but1 {
+    margin-top: 12px;
 }
 
 h3 {
@@ -156,4 +159,45 @@ h3 {
     font-weight: bold;
     font-style: normal;
     padding: 0 48px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 108px 192px;
+    color: #f9faf8;
+}
+
+.sign-up .container {
+    background-color: #3882F6;
+    display: flex;
+    border: solid 0;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#s-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#s-up-text * {
+    margin: 0;
+}
+
+#but2 {
+    border-width: 2px;
+    border-color: #f9faf8;
+    align-self: flex-end;
+    width: 128px;
+    height: 48px
 }
